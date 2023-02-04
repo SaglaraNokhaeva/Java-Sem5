@@ -24,8 +24,8 @@ public class task1 {
         db.put(345678, "Иванов");
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Введите фамилию для поиска: ");
-        String sekond_name = scan.nextLine();
+        // System.out.println("Введите фамилию для поиска: ");
+        String sekond_name = "Иванов";
 
         for (int str : db.keySet()) {
 
